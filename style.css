@@ -147,6 +147,43 @@ input[type=button] {
     border-radius: 10px;
 }
 
+.their-struggle {
+    background-image: url(images/donation5.jpg);
+    box-shadow: inset 0 0 0 2000px rgba(5, 5, 5, 0.74);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: white;
+}
+
+.their-struggle p {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.struggle-flex {
+    display: flex;
+    text-align: center;
+    margin: 3% 10%;
+}
+
+.struggle-width {
+
+    height: 200px;
+    background-color: #99949850;
+    border-top: tomato solid 5px;
+    border-bottom: blue solid 5px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 0px 30px;
+    padding: 80px 40px;
+}
+
 .my-updates h1 {
     text-align: center;
 }
